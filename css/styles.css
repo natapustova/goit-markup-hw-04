@@ -281,7 +281,7 @@ button {
 
 /* #endsection-advantages */
 
-/* #esection-team */
+/* #sesection-team */
 .section-team {
     background-color: #F4F4FD;
     padding: 120px 0
@@ -353,6 +353,9 @@ button {
     width: 40px;
     height: 40px;
 }
+
+.contact-item-mark-icon {}
+
 
 .contact-mark {
     width: 100%;
