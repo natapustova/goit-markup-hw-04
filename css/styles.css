@@ -276,6 +276,8 @@ button {
     padding: 120px 0
 }
 
+.container-team {}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -329,6 +331,14 @@ button {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
+.contact-list-mark {}
+
+.contact-item-mark {}
+
+.contact-item-mark-icon {}
+
+
 
 /* #endsection-team */
 
