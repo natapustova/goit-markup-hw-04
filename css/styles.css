@@ -421,4 +421,30 @@ button {
     max-width: 264px
 }
 
+.container-footer-media {}
+
+.footer-media-text {
+    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.media-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    width: 208px;
+    height: 40px
+}
+
+.media-item {
+    width: 40px;
+    height: 40px;
+}
+
+.media-item-icon {}
+
 /* #endregion footer */
