@@ -421,7 +421,12 @@ button {
     max-width: 264px
 }
 
-.container-footer-media {}
+.container-footer-media {
+    width: 208px;
+    height: 80pt;
+}
+
+
 
 .footer-media-text {
     font-weight: 500;
