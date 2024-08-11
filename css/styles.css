@@ -413,7 +413,6 @@ button {
 
 .logo-text {
     margin-right: 120px;
-    margin-bottom: 16px;
 }
 
 .container-footer {
@@ -436,7 +435,8 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #4646af;
-    max-width: 264px
+    max-width: 264px;
+    margin-bottom: 16px;
 }
 
 .container-footer-media {
@@ -462,7 +462,11 @@ button {
     height: 40px
 }
 
-.media-item {}
+.media-item {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .media-item-link {
     width: 100%;
@@ -474,7 +478,10 @@ button {
     justify-content: center;
 }
 
-.media-item-link:hover,
+.media-item-link:hover {
+    background-color: #31d0aa;
+}
+
 .media-item-link:focus {
     background-color: #31d0aa;
 }
