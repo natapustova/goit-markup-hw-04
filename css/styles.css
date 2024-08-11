@@ -417,14 +417,15 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: #4646af;
     max-width: 264px
 }
 
 .container-footer-media {}
 
 .footer-media-text {
-    line-height: 24px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
@@ -440,11 +441,16 @@ button {
     height: 40px
 }
 
-.media-item {
+.media-item {}
+
+.media-item-icon {
+    display: flex;
+    justify-content: center;
+    align-self: center;
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
 }
-
-.media-item-icon {}
 
 /* #endregion footer */
