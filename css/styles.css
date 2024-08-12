@@ -448,6 +448,10 @@ button {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.service:hover .drawing-text {
+    transform: translateY(0%);
+}
+
 .drawing {
     position: relative;
     overflow: hidden;
@@ -574,14 +578,10 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.media-item-link:hover {
-    background-color: #31d0aa;
-}
-
+.media-item-link:hover,
 .media-item-link:focus {
     background-color: #31d0aa;
 }
-
 
 .media-item-icon {
     fill: #f4f4fd;
