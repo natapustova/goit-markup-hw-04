@@ -158,8 +158,7 @@ button {
 }
 
 .contact-item:last-child {
-    margin-right: 0;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-right: 0
 }
 
 .contact-link {
@@ -169,6 +168,7 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-link:hover,
