@@ -481,14 +481,19 @@ button {
 }
 
 .drawing-text {
+
+    width: 360px;
+    height: 300px;
+    background: #4d5ae5;
     position: absolute;
     top: 0;
-    ont-weight: 400;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #404bbf;
+    padding: 40px 32px;
     transform: translateY(100%);
     transition: transform 300ms linear;
 }
