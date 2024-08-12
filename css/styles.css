@@ -31,6 +31,10 @@ p {
     margin-bottom: 0;
 }
 
+.img {
+    display: block;
+}
+
 .container {
     justify-content: space-between;
     max-width: 1158px;
@@ -100,7 +104,10 @@ button {
     gap: 40px;
 }
 
-.menu-item {}
+.menu-item {
+    position: relative;
+    color: #404bbf;
+}
 
 .menu-link {
     font-weight: 500;
@@ -110,6 +117,17 @@ button {
     color: #2e2f42;
     display: block;
     padding: 24px 0;
+}
+
+.menu-link:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px
 }
 
 .menu-link:hover,
@@ -422,6 +440,17 @@ button {
 
 .service {
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.service:hover .drawing-text {
+    transform: translate(0);
+}
+
+.drawing {
+    position: relative;
+    overflow: hidden;
+
 }
 
 .service:last-child(2n+1) {
@@ -443,6 +472,25 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
+}
+
+.drawing {
+    position: relative;
+    overflow: hidden;
+}
+
+.drawing-text {
+    position: absolute;
+    top: 0;
+    ont-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    background-color: #404bbf;
+    transform: translateY(100%);
+    transition: transform 300ms linear;
 }
 
 /* #endportfolio-section */
