@@ -384,10 +384,6 @@ button {
     fill: #f4f4fd;
 }
 
-.contact-name:focus {
-    background-color: #404bbf;
-}
-
 .contact-name {
     width: 100%;
     height: 100%;
@@ -398,7 +394,8 @@ button {
     justify-content: center;
 }
 
-.contact-name:hover {
+.contact-name:hover,
+.contact-name:focus {
     background-color: #404bbf;
 }
 
