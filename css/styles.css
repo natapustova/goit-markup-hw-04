@@ -267,7 +267,6 @@ button {
 }
 
 .feature-item-border {
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 112px;
