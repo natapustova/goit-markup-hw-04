@@ -494,8 +494,8 @@ button {
 .media-list {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: row;
+    justify-content: center;
     gap: 16px;
     width: 208px;
     height: 40px
