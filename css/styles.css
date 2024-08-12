@@ -384,6 +384,10 @@ button {
     fill: #f4f4fd;
 }
 
+.contact-name:focus {
+    background-color: #404bbf;
+}
+
 .contact-name {
     width: 100%;
     height: 100%;
@@ -395,10 +399,6 @@ button {
 }
 
 .contact-name:hover {
-    background-color: #404bbf;
-}
-
-.contact-name:focus {
     background-color: #404bbf;
 }
 
