@@ -338,9 +338,11 @@ button {
     text-align: center;
 }
 
-.contact-list-mark {
+.contact-list-name {
     display: flex;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
     gap: 24px;
 }
 
@@ -349,15 +351,16 @@ button {
     padding-bottom: 32px;
 }
 
-.contact-item-mark {
+.contact-item-name {
     width: 40px;
     height: 40px;
 }
 
-.contact-item-mark-icon {}
+.contact-item-name-icon {
+    fill: #f4f4fd;
+}
 
-
-.contact-mark {
+.contact-name {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -367,80 +370,11 @@ button {
     justify-content: center;
 }
 
-.contact-mark :hover {
+.contact-name :hover {
     background-color: #404bbf;
 }
 
-.contact-mark:focus {
-    background-color: #404bbf;
-}
-
-.contact-item-tom {
-    width: 40px;
-    height: 40px;
-}
-
-.contact-tom {
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-tom :hover {
-    background-color: #404bbf;
-}
-
-.contact-tom:focus {
-    background-color: #404bbf;
-}
-
-.contact-item-camila {
-    width: 40px;
-    height: 40px;
-}
-
-.contact-camila {
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-camila :hover {
-    background-color: #404bbf;
-}
-
-.contact-camila:focus {
-    background-color: #404bbf;
-}
-
-.contact-item-daniel {
-    width: 40px;
-    height: 40px;
-}
-
-.contact-daniel {
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-daniel :hover {
-    background-color: #404bbf;
-}
-
-.contact-daniel:focus {
+.contact-name:focus {
     background-color: #404bbf;
 }
 
@@ -538,7 +472,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #4646af;
+    color: #fff;
     max-width: 264px;
 
 }
